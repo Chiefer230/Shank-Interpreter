@@ -1,0 +1,56 @@
+define start ( )
+variables
+a, k , j: integer
+jason, i, it : boolean
+kit : string
+jit : character
+begin
+write "==Char=="
+jit := 'j'
+write jit
+write "==String=="
+kit := "hello" + "hi"
+write kit
+kit := "Hi" + kit
+write kit
+kit := "kit" + 't'
+write kit
+kit := "y" + kit
+write kit
+write "==String Conditional=="
+if kit = "hello" then
+begin
+	a := 5
+end
+write a
+write "==Char Boolean=="
+jason := 't' = 't'
+write jason
+if jason then
+begin
+	repeat
+	begin
+		for j from 0 to 5
+		begin
+			while k < 2
+			begin
+				k:= k + 1
+			end
+		end
+		a := a + 1
+		write a
+	end
+	until a = 6
+end
+write "==MergeExpression=="
+i := 56 * 90 >= 23 + 90
+i := i = true
+write i
+write "i should return true"
+write "==Boolean Conditional=="
+it := true
+it := i <> it
+write it
+write "it should return false"
+write "The Second If Statement is always true"
+end

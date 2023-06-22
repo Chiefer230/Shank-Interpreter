@@ -1,0 +1,8 @@
+public Token MatchAndRemove(Token Type Main)
+{
+	if(Main == TokenType Number)
+	{
+		Tokens.remove();
+		return tHE Token
+	}
+	Same for the other Token Types
